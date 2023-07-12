@@ -38,4 +38,9 @@ public class IndexController {
         return pokemonService.deletePokemonById(id);
     }
 
+    @GetMapping("/auth")
+    public Boolean authUser() {
+        return true;
+    }
+
 }
